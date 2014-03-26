@@ -1,6 +1,6 @@
 {
   "name": "peer-jyzr",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "PeerJS server component",
   "main": "lib/server.js",
   "bin": {
@@ -15,7 +15,8 @@
   "dependencies": {
     "restify": "~2.6.0",
     "ws": "~0.4.25",
-    "optimist": "*"
+    "optimist": "*",
+    "MD5": "~1.2.0"
   },
   "devDependencies": {
     "expect.js": "*",
