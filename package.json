@@ -1,5 +1,5 @@
 {
-  "name": "peer",
+  "name": "peer-jyzr",
   "version": "0.2.3",
   "description": "PeerJS server component",
   "main": "lib/server.js",
