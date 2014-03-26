@@ -205,8 +205,8 @@ describe('PeerServer', function() {
       p = new PeerServer({ port: 8000 });
     });
 
-    it('should generate a 16-character ID', function() {
-      expect(p._generateClientId('anykey').length).to.be.within(15, 16);
+    it('should generate a 32 digit hexadecimal number', function() {
+      expect(p._generateClientId('anykey')).to.match(/[0-9a-f]{32}/);
     });
   });
 });
